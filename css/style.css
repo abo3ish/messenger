@@ -1,0 +1,265 @@
+*{
+	-webkit-box-sizing: border-box ;
+	-moz-box-sizing: border-box ;
+	box-sizing: border-box ;
+
+}
+
+body{
+    height: 1000px;
+  
+   
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+.clearfix{
+    clear: both;
+}
+
+                          /* start navbar */
+.navbar ul{
+    float: right;
+    padding-top:50px;
+    margin-right:50px;
+    margin-bottom:15px;
+}
+.navbar li{ 
+    list-style: none;
+    display: inline-block;
+    margin-left:15px;
+    color:#0092FF;   
+}
+
+                          /* end navbar */
+
+.sign .form{
+    width:45%;
+    float:left;
+    margin-top:20px;
+}
+.sign .logo{
+    text-align: center;
+    
+}
+.sign .logo img{
+    width: 120px;
+    height: 120px;
+} 
+
+.sign .logo h2{
+    font-size:40px;
+    font-weight: 400;
+    color:#1F1F1F;
+    text-align: center;
+    font-family: sans-serif 
+        
+}
+.sign .logo h4{
+    font-size:17px;
+    color:#404040;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif
+        
+}
+.form{
+    text-align: center;
+}
+.form input{
+    display: inline-block;
+    width: 64%;
+    margin-bottom: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    height: 50px;
+    padding-left: 15px;
+    color: #CECECE;
+    font-size: 17px;
+    margin-left:15px;
+}
+        
+.form button{
+    background-color: #0084FF;
+    display: inline-block;
+    width: 65%;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    margin-left:17px;
+}
+.remember{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+.remember input{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 350px;
+    width:15px;
+    
+}
+.remember label{
+     display: block;
+    margin-top: 0px;
+    position: absolute;
+    top: 17px;
+    left: 210px;
+    cursor: pointer;
+    color: #666682;
+    letter-spacing: 1.2px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 15px;
+        
+}
+.app{
+    
+    margin-top: 70px;
+}
+.app a{
+    text-decoration: none;
+    color:#6384FF;
+    font-size: 15px;   
+}
+.sign .photo {
+    width:55%;
+    float:right;
+}
+
+                                    /* End sign in  */
+
+                                    /* Start vedio call  */
+
+
+
+.blue{
+    background-color: #0084ff;
+    cursor: pointer;
+}
+.blue .video{
+    width: 50%;
+    float: left;
+    margin-left: 3%;
+    
+}
+.blue .video img{
+    
+    height: 550px;
+    width: 100%
+}
+
+.blue .about{
+    width:30%;
+    float: right;
+    color:aliceblue;
+    margin-right: 13%;
+
+    
+}
+.about h2{
+    font-weight: bold;
+    font-size: 42px;
+    color:#FFFFFF;
+}
+.about p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.learn{
+    background-color: #2998FF;
+    padding:10px;
+    border:0;
+    border-radius:1px;
+    color:#ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top:20px;
+    
+}
+
+                                /* End vedio call  */
+
+                                /* Start Features  */
+
+.features {
+    background-image:url(../img/footer.png);
+    background-size: 980px auto;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}                               
+.item{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.features .info{
+    text-align: center;
+    margin-top:70px;
+    margin-bottom:50px;
+}
+.features .info h2{
+   color: #404040;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.features .info h3{
+    color:#737373;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+
+.item a{
+    text-decoration: none;
+    text-align: center;
+}
+.item a h4{
+    color: #737373;
+    width: 50%;
+    font-size: 21px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+.explore{
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+.explore button{
+    border:1px solid #6384FF;
+    color:#0084FF;
+    padding:8px;
+    width:100px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    
+}
+
+       
+                            /* End Features  */
+
+.footer{
+    background-color: #323940;
+    overflow: hidden;
+    padding: 10px 30px;
+    
+}
+.footer p{
+    text-align: center;
+    color:rgba(255, 255, 255, .4);  
+}
